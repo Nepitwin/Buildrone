@@ -1,0 +1,10 @@
+[project]
+name = "buildrone"
+version = "0.1.0"
+description = "Modular build pipeline CLI framework"
+authors = [{ name = "Andreas Sekulski" }]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+buildrone = "buildrone.cli:main"

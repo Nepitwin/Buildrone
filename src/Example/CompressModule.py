@@ -1,0 +1,7 @@
+from Buildrone.base import BaseModule
+
+
+class CompressModule(BaseModule):
+    def run(self, args):
+        print("Compress module executed")
+        print(args)
